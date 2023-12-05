@@ -1,3 +1,6 @@
+button {
+	border: none;
+}
 .controls {
 	display: flex;
 	padding: 32px;
@@ -23,4 +26,28 @@
 	gap: 10px;
 	border-radius: 8px;
 	background: #f6f6fe;
+}
+.button-create {
+	border-radius: 8px;
+	background: #4e75ff;
+	color: #fff;
+	font-family: Montserrat, sans-serif;
+	font-size: 16px;
+	font-style: normal;
+	font-weight: 500;
+	line-height: 24px; /* 150% */
+	letter-spacing: 0.64px;
+	width: 120px;
+}
+.button-destroy {
+	border-radius: 8px;
+	background: #ff4e4e;
+	color: #fff;
+	font-family: Montserrat, sans-serif;
+	font-size: 16px;
+	font-style: normal;
+	font-weight: 500;
+	line-height: 24px; /* 150% */
+	letter-spacing: 0.64px;
+	width: 120px;
 }
